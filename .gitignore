@@ -1,0 +1,45 @@
+# Node modules
+node_modules/
+client/node_modules/
+
+# Environment variables
+.env
+backend/.env
+client/.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build folders
+build/
+dist/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+
+# Uploads (important for your project)
+uploads/
+
+# IDE files
+.vscode/
+.idea/
+
+# Coverage
+coverage/
+
+# Misc
+*.log
+# AI model weights
+Ai/weights/
+*.pt
